@@ -309,7 +309,15 @@ img {
 
 /* Forms */
 input {
-  margin: 1.2rem 0;
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  background-color: #f1f1f1;
+  width: 100%;
 }
 
 .form-text {
@@ -374,6 +382,12 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+/* Specifics */
+
+.hoverItem:hover {
+  background-color: #e9e9e9 !important;
 }
 
 /* Mobile Styles */
